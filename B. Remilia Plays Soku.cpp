@@ -12,8 +12,7 @@ int main()
         int n,x,y,z;
         cin>>n>>x>>y>>z;
         if(n<=3)cout<<1<<endl;
-        else
-        cout<<min(abs(x-y),n-abs(x-y))+z<<endl;
+        else cout<<min(abs(x-y),n-abs(x-y))+z<<endl;
     }
 }
 

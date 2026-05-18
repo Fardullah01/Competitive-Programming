@@ -26,7 +26,7 @@ int main()
         }
         else
         {
-             cout<<a0+a1+(((a2-a1)*2)/3)<<endl;
+             cout<<a0+a1+((a2-a1)/3)<<endl;
         }
     }
 }
